@@ -13,18 +13,13 @@ To write a C program to find minimum between three fraction numbers using condit
 ## Program:
 ```
 #include <stdio.h>
-
 int main()
 {
     float a, b, c, min;
-
     printf("Enter three fractional numbers: ");
     scanf("%f%f%f", &a, &b, &c);
-
     min = (a < b) ? ((a < c) ? a : c) : ((b < c) ? b : c);
-
     printf("Minimum value: %.2f\n", min);
-
     return 0;
 }
 ```
